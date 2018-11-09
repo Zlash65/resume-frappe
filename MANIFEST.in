@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include resume *.css
+recursive-include resume *.csv
+recursive-include resume *.html
+recursive-include resume *.ico
+recursive-include resume *.js
+recursive-include resume *.json
+recursive-include resume *.md
+recursive-include resume *.png
+recursive-include resume *.py
+recursive-include resume *.svg
+recursive-include resume *.txt
+recursive-exclude resume *.pyc
